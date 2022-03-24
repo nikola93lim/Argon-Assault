@@ -716,6 +716,7 @@ GameObject:
   - component: {fileID: 6323856832260889131}
   - component: {fileID: 8081196064944074465}
   - component: {fileID: 6392156271716555055}
+  - component: {fileID: -3985562343736375811}
   m_Layer: 0
   m_Name: Mothership
   m_TagString: Untagged
@@ -799,10 +800,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d971b509cc938de47b176ce55001ec52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionParticle: {fileID: 3200836327345539238, guid: 2ef5238e6fb242e4990e6a41244445d5, type: 3}
+  explosionSoundParticle: {fileID: 3200836327345539238, guid: 2ef5238e6fb242e4990e6a41244445d5, type: 3}
   damageParticle: {fileID: 3200836327345539238, guid: 53b98c4e24bd6ed428048c80eaba88cc, type: 3}
   points: 300
   healthPoints: 50
+--- !u!65 &-3985562343736375811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7721088896547229492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.85927, y: 2.496461, z: 10.716055}
+  m_Center: {x: 0.00000023841858, y: -0.000001013279, z: 0}
 --- !u!1 &7754422490188161384
 GameObject:
   m_ObjectHideFlags: 0
